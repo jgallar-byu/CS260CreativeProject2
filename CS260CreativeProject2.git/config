@@ -1,8 +1,0 @@
-[core]
-	repositoryformatversion = 0
-	filemode = true
-	bare = true
-[remote "origin"]
-	url = https://github.com/jgallar-byu/CS260CreativeProject2.git
-	fetch = +refs/*:refs/*
-	mirror = true
