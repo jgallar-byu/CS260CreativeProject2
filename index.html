@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Creative Project #2</title>
+    <!-- Bootstrap thing -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--  -->
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+      <h1>CATFLIX</h1>
+    </div>
+    
+    <div class="row">
+      <div class="col-3 col-s-3 menu">
+      </div>
+    
+      <div class="col-6 col-s-9">
+        <div>
+
+            <header class="container-fluid">
+                <div class="row">
+                    <div class="col-6 type active" id="movie">
+                        Movies
+                    </div>
+                    <div class="col-6 type" id="series">
+                        Tv Shows
+                    </div>
+                </div>
+            </header>
+            <main class="container mt-2">
+                <form action="">
+                    <fieldset class="form-group">
+                        <label for="searchTerm">Search ror movies or TV shows</label>
+                        <input type="text" class="form-control" id="searchTerm" placeholder="Enter a movie or TV show title">
+                    </fieldset>
+                    <button type="submit" class="btn btn-primary btn-lg">Search</button>
+                </form>
+                <section class="mt-2 row" id="results">
+                    
+                </section>
+            </main>
+        </div>
+      </div>
+    
+      <div class="col-3 col-s-12">
+        <img src="/nyancat.gif" alt="nyancat">
+      </div>
+    </div>
+    
+    <div class="footer">
+        <a href="#" class="fa fa-github"></a>
+    </div>
+    
+    </body>
+<script src="script.js" charset="utf-8"></script>
+</html>
