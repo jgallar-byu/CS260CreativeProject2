@@ -5,7 +5,7 @@ const typeButtons = document.querySelectorAll('.type');
 let type = ''; /* movie or serie */
 const APIKEY = 'aed62d04';
 let APIURL = ''; 
-
+ 
 form.addEventListener('submit', formSubmitted);
 
 typeButtons.forEach(function(el){ /*List each item in the array */
