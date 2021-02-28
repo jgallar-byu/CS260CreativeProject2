@@ -4,7 +4,7 @@ const resultsSection = document.querySelector('#results');
 const typeButtons = document.querySelectorAll('.type');
 let type = ''; /* movie or serie */
 const APIKEY = 'aed62d04';
-let APIURL = '';
+let APIURL = ''; 
 
 form.addEventListener('submit', formSubmitted);
 
